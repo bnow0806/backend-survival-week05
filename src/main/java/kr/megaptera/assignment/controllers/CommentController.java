@@ -41,7 +41,6 @@ public class CommentController {
         CommentDto created = createCommentService
                 .createComment(postId, commentCreateDto);
 
-        System.out.println("ceated : " + created);
         return created;
     }
 
