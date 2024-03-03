@@ -7,6 +7,7 @@ class PostControllerTest {
     @Test
     @DisplayName("GET /posts")
     void list() {
+        //test
     }
 
     @Test
